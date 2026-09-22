@@ -1,0 +1,14 @@
+packages:
+  - .
+
+overrides:
+  deepmerge-ts: ^8.0.1
+  mysql2: ^3.24.0
+
+allowBuilds:
+  "@parcel/watcher": true
+  "@prisma/engines": true
+  "@swc/core": true
+  esbuild: true
+  prisma: true
+  unrs-resolver: true

@@ -4,16 +4,16 @@ Portfolio สำหรับ Personal brand สไตล์ Futuristic + Glow �
 
 ## เริ่มใช้งาน
 
-ใช้ Node.js 22 LTS และ npm ตาม lockfile (ทดสอบบน Node 22.23.1)
+ใช้ Node.js 22 LTS และ pnpm ตาม `pnpm-lock.yaml` (ทดสอบบน Node 22.23.1 และ pnpm 11.22.0)
 
 ```sh
-npm ci
-npm run dev
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
 เปิด http://localhost:3000 — ครั้งแรกใช้ภาษาไทยที่ `/` และจำภาษาที่เลือกผ่านสวิตช์ภาษา โดย URL จะไม่มี `/th` หรือ `/en`
 
-บน Windows ถ้า PowerShell ไม่อนุญาต npm.ps1 ใช้ `npm.cmd` / `npx.cmd` แทน ไม่ต้องเปลี่ยน execution policy
+บน Windows ถ้า PowerShell ไม่อนุญาต `pnpm.ps1` ให้ใช้ `pnpm.cmd` แทน ไม่ต้องเปลี่ยน execution policy
 
 ## แก้ข้อมูลให้เป็นของคุณ
 
@@ -61,29 +61,29 @@ Breakpoints: mobile <768px, tablet 768–1023px, desktop ≥1024px; ผู้ใ
 ## ตรวจคุณภาพ
 
 ```sh
-npm run lint
-npm run typecheck
-npm test
-npm run format:check
-npm run build
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm format:check
+pnpm build
 ```
 
 ติดตั้ง Chromium สำหรับ E2E ไว้ใน cache ของโปรเจกต์ (PowerShell):
 
 ```powershell
 $env:PLAYWRIGHT_BROWSERS_PATH = "$PWD/.cache/playwright"
-npx.cmd playwright install chromium
-npm.cmd run test:e2e
+pnpm.cmd exec playwright install chromium
+pnpm.cmd test:e2e
 ```
 
 macOS/Linux:
 
 ```sh
-PLAYWRIGHT_BROWSERS_PATH="$PWD/.cache/playwright" npx playwright install chromium
-npm run test:e2e
+PLAYWRIGHT_BROWSERS_PATH="$PWD/.cache/playwright" pnpm exec playwright install chromium
+pnpm test:e2e
 ```
 
-Playwright ใช้ production build ที่พอร์ต 3100 จึงต้อง `npm run build` ก่อน และไม่ควรรัน build/dev ซ้อนกับเซิร์ฟเวอร์ที่ใช้ .next เดียวกัน ถ้ามีเซิร์ฟเวอร์ 3100 เปิดอยู่จะใช้เซิร์ฟเวอร์นั้น ตรวจให้แน่ใจว่าเป็น build ล่าสุด
+Playwright ใช้ production build ที่พอร์ต 3100 จึงต้อง `pnpm build` ก่อน และไม่ควรรัน build/dev ซ้อนกับเซิร์ฟเวอร์ที่ใช้ .next เดียวกัน ถ้ามีเซิร์ฟเวอร์ 3100 เปิดอยู่จะใช้เซิร์ฟเวอร์นั้น ตรวจให้แน่ใจว่าเป็น build ล่าสุด
 
 ชุดทดสอบครอบคลุม 320/390/768/1440px × TH/EN × Light/Dark, 5 palettes, axe accessibility, locale persistence พร้อม query/hash, theme/system, mobile keyboard navigation, project routes, 404, no-JavaScript และ motion lifecycle ส่วน unit tests ตรวจข้อมูล/คำแปล การคัดลอกอีเมล และ theme tokens
 
@@ -142,13 +142,13 @@ Supabase Auth and the Supabase Data API are not used for application records.
 5. Apply migrations, generate the client, and create the first owner:
 
 ```sh
-npm run db:deploy
-npm run db:generate
-npm run auth:create-admin -- --email owner@example.com --name "Owner" --role admin
+pnpm db:deploy
+pnpm db:generate
+pnpm auth:create-admin --email owner@example.com --name "Owner" --role admin
 ```
 
 Use the Supavisor transaction pooler on port 6543 for `DATABASE_URL` and the
-session pooler on port 5432 for `DIRECT_URL`. Run `npm run db:deploy` before a
+session pooler on port 5432 for `DIRECT_URL`. Run `pnpm db:deploy` before a
 production deployment; builds generate the client but never apply migrations.
 
 If every backend variable is empty, the public site remains available with an

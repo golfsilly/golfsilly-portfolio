@@ -34,9 +34,9 @@ GitHub sign-up is disabled, so OAuth cannot create arbitrary accounts.
 Copy `.env.example` to `.env.local`, fill every backend variable, then run:
 
 ```sh
-npm run db:deploy
-npm run db:generate
-npm run auth:create-admin -- --email owner@example.com --name "Owner" --role admin
+pnpm db:deploy
+pnpm db:generate
+pnpm auth:create-admin --email owner@example.com --name "Owner" --role admin
 ```
 
 `auth:generate` is reserved for Better Auth schema or plugin changes. Review its
@@ -45,7 +45,7 @@ output before applying it and keep every generated auth model in Prisma schema
 
 Set the same variables in Vercel. Preview and production deployments should use
 separate Supabase projects when preview data must be isolated. Apply migrations
-with `npm run db:deploy` before promoting the deployment; do not run migrations
+with `pnpm db:deploy` before promoting the deployment; do not run migrations
 inside a request or serverless function.
 
 ## 4. Storage and deletion behavior

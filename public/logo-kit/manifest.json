@@ -1,0 +1,381 @@
+{
+  "brand": "Golfsilly",
+  "version": "1.0",
+  "laptop_lid": "blank",
+  "source_native_size": [
+    1254,
+    1254
+  ],
+  "color_palette": {
+    "background": "#070A14",
+    "text": "#E8F7FF",
+    "cyan": "#00D9FF",
+    "violet": "#8A2BFF",
+    "magenta": "#E53BFF"
+  },
+  "assets": [
+    {
+      "file": "00-master/golfsilly-source-transparent.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "purpose": "Native generated transparent artwork, blank laptop lid",
+      "bytes": 2037710
+    },
+    {
+      "file": "01-logos/mark/golfsilly-mark-1254-transparent.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "purpose": "Full G developer mark 1254px / transparent",
+      "bytes": 1658642
+    },
+    {
+      "file": "01-logos/mark/golfsilly-mark-1254-dark.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "purpose": "Full G developer mark 1254px / dark background",
+      "bytes": 1393230
+    },
+    {
+      "file": "01-logos/mark/golfsilly-mark-512-transparent.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "purpose": "Full G developer mark 512px / transparent",
+      "bytes": 333767
+    },
+    {
+      "file": "01-logos/mark/golfsilly-mark-512-dark.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "purpose": "Full G developer mark 512px / dark background",
+      "bytes": 281513
+    },
+    {
+      "file": "01-logos/mark/golfsilly-mark-180-transparent.png",
+      "width": 180,
+      "height": 180,
+      "mode": "RGBA",
+      "purpose": "Full G developer mark 180px / transparent",
+      "bytes": 53412
+    },
+    {
+      "file": "01-logos/mark/golfsilly-mark-180-dark.png",
+      "width": 180,
+      "height": 180,
+      "mode": "RGB",
+      "purpose": "Full G developer mark 180px / dark background",
+      "bytes": 44212
+    },
+    {
+      "file": "01-logos/primary/golfsilly-primary-1600x800-transparent.png",
+      "width": 1600,
+      "height": 800,
+      "mode": "RGBA",
+      "purpose": "primary logo master / transparent",
+      "bytes": 626945
+    },
+    {
+      "file": "01-logos/primary/golfsilly-primary-1600x800-dark.png",
+      "width": 1600,
+      "height": 800,
+      "mode": "RGB",
+      "purpose": "primary logo master / dark background",
+      "bytes": 531979
+    },
+    {
+      "file": "01-logos/primary/golfsilly-primary-250w-transparent.png",
+      "width": 250,
+      "height": 125,
+      "mode": "RGBA",
+      "purpose": "primary logo, display at 250px; 1x / transparent",
+      "bytes": 28106
+    },
+    {
+      "file": "01-logos/primary/golfsilly-primary-250w-dark.png",
+      "width": 250,
+      "height": 125,
+      "mode": "RGB",
+      "purpose": "primary logo, display at 250px; 1x / dark background",
+      "bytes": 23469
+    },
+    {
+      "file": "01-logos/primary/golfsilly-primary-500w-transparent.png",
+      "width": 500,
+      "height": 250,
+      "mode": "RGBA",
+      "purpose": "primary logo, display at 250px; 2x / transparent",
+      "bytes": 86882
+    },
+    {
+      "file": "01-logos/primary/golfsilly-primary-500w-dark.png",
+      "width": 500,
+      "height": 250,
+      "mode": "RGB",
+      "purpose": "primary logo, display at 250px; 2x / dark background",
+      "bytes": 73689
+    },
+    {
+      "file": "01-logos/horizontal/golfsilly-horizontal-1800x450-transparent.png",
+      "width": 1800,
+      "height": 450,
+      "mode": "RGBA",
+      "purpose": "horizontal logo master / transparent",
+      "bytes": 246579
+    },
+    {
+      "file": "01-logos/horizontal/golfsilly-horizontal-1800x450-dark.png",
+      "width": 1800,
+      "height": 450,
+      "mode": "RGB",
+      "purpose": "horizontal logo master / dark background",
+      "bytes": 214542
+    },
+    {
+      "file": "01-logos/horizontal/golfsilly-horizontal-240w-transparent.png",
+      "width": 240,
+      "height": 60,
+      "mode": "RGBA",
+      "purpose": "horizontal logo, display at 240px; 1x / transparent",
+      "bytes": 13042
+    },
+    {
+      "file": "01-logos/horizontal/golfsilly-horizontal-240w-dark.png",
+      "width": 240,
+      "height": 60,
+      "mode": "RGB",
+      "purpose": "horizontal logo, display at 240px; 1x / dark background",
+      "bytes": 11646
+    },
+    {
+      "file": "01-logos/horizontal/golfsilly-horizontal-480w-transparent.png",
+      "width": 480,
+      "height": 120,
+      "mode": "RGBA",
+      "purpose": "horizontal logo, display at 240px; 2x / transparent",
+      "bytes": 33735
+    },
+    {
+      "file": "01-logos/horizontal/golfsilly-horizontal-480w-dark.png",
+      "width": 480,
+      "height": 120,
+      "mode": "RGB",
+      "purpose": "horizontal logo, display at 240px; 2x / dark background",
+      "bytes": 29469
+    },
+    {
+      "file": "01-logos/stacked/golfsilly-stacked-1000x1200-transparent.png",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGBA",
+      "purpose": "stacked logo master / transparent",
+      "bytes": 802129
+    },
+    {
+      "file": "01-logos/stacked/golfsilly-stacked-1000x1200-dark.png",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB",
+      "purpose": "stacked logo master / dark background",
+      "bytes": 679252
+    },
+    {
+      "file": "01-logos/stacked/golfsilly-stacked-180w-transparent.png",
+      "width": 180,
+      "height": 216,
+      "mode": "RGBA",
+      "purpose": "stacked logo, display at 180px; 1x / transparent",
+      "bytes": 43195
+    },
+    {
+      "file": "01-logos/stacked/golfsilly-stacked-180w-dark.png",
+      "width": 180,
+      "height": 216,
+      "mode": "RGB",
+      "purpose": "stacked logo, display at 180px; 1x / dark background",
+      "bytes": 36315
+    },
+    {
+      "file": "01-logos/stacked/golfsilly-stacked-360w-transparent.png",
+      "width": 360,
+      "height": 432,
+      "mode": "RGBA",
+      "purpose": "stacked logo, display at 180px; 2x / transparent",
+      "bytes": 137580
+    },
+    {
+      "file": "01-logos/stacked/golfsilly-stacked-360w-dark.png",
+      "width": 360,
+      "height": 432,
+      "mode": "RGB",
+      "purpose": "stacked logo, display at 180px; 2x / dark background",
+      "bytes": 116723
+    },
+    {
+      "file": "02-favicons/favicon-16.png",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "purpose": "Full artwork favicon; fine detail reduced at small sizes",
+      "bytes": 1022
+    },
+    {
+      "file": "02-favicons/favicon-32.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "purpose": "Full artwork favicon; fine detail reduced at small sizes",
+      "bytes": 3290
+    },
+    {
+      "file": "02-favicons/favicon-48.png",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "purpose": "Full artwork favicon; fine detail reduced at small sizes",
+      "bytes": 6511
+    },
+    {
+      "file": "02-favicons/favicon-64.png",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "purpose": "Full artwork favicon; fine detail reduced at small sizes",
+      "bytes": 10623
+    },
+    {
+      "file": "02-favicons/favicon.ico",
+      "sizes": [
+        16,
+        32,
+        48,
+        64
+      ],
+      "purpose": "Multi-resolution browser favicon",
+      "bytes": 21582
+    },
+    {
+      "file": "03-hero/hero-desktop-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "purpose": "Desktop hero; text on left",
+      "bytes": 1753786
+    },
+    {
+      "file": "03-hero/hero-desktop-1920x1080.webp",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "purpose": "Desktop hero; text on left",
+      "bytes": 170326
+    },
+    {
+      "file": "03-hero/hero-mobile-1080x1440.png",
+      "width": 1080,
+      "height": 1440,
+      "mode": "RGB",
+      "purpose": "Mobile hero; text above illustration",
+      "bytes": 1680087
+    },
+    {
+      "file": "03-hero/hero-mobile-1080x1440.webp",
+      "width": 1080,
+      "height": 1440,
+      "mode": "RGB",
+      "purpose": "Mobile hero; text above illustration",
+      "bytes": 178492
+    },
+    {
+      "file": "04-about/about-developer-1200x1500.png",
+      "width": 1200,
+      "height": 1500,
+      "mode": "RGB",
+      "purpose": "About portrait; blank notebook lid",
+      "bytes": 1840462
+    },
+    {
+      "file": "04-about/about-developer-1200x1500.webp",
+      "width": 1200,
+      "height": 1500,
+      "mode": "RGB",
+      "purpose": "About portrait; blank notebook lid",
+      "bytes": 171378
+    },
+    {
+      "file": "05-backgrounds/background-circuits-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "purpose": "Quiet circuits section background",
+      "bytes": 1211440
+    },
+    {
+      "file": "05-backgrounds/background-circuits-1920x1080.webp",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "purpose": "Quiet circuits section background",
+      "bytes": 47470
+    },
+    {
+      "file": "05-backgrounds/background-plasma-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "purpose": "Edge plasma section background",
+      "bytes": 1688131
+    },
+    {
+      "file": "05-backgrounds/background-plasma-1920x1080.webp",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "purpose": "Edge plasma section background",
+      "bytes": 117946
+    },
+    {
+      "file": "04-about/profile-512.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "purpose": "Profile illustration crop",
+      "bytes": 355577
+    },
+    {
+      "file": "04-about/profile-512.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "purpose": "Profile illustration crop",
+      "bytes": 47992
+    },
+    {
+      "file": "06-social/golfsilly-og-1200x630.png",
+      "width": 1200,
+      "height": 630,
+      "mode": "RGB",
+      "purpose": "Social link preview; Golfsilly only",
+      "bytes": 827560
+    },
+    {
+      "file": "06-social/golfsilly-og-1200x630.webp",
+      "width": 1200,
+      "height": 630,
+      "mode": "RGB",
+      "purpose": "Social link preview; Golfsilly only",
+      "bytes": 97620
+    },
+    {
+      "file": "portfolio-kit-overview.png",
+      "width": 1800,
+      "height": 2200,
+      "mode": "RGB",
+      "purpose": "Overview of delivered assets",
+      "bytes": 1824631
+    }
+  ]
+}

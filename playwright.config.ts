@@ -17,7 +17,7 @@ export default defineConfig({
   },
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
   webServer: {
-    command: "npm run start -- --port 3100",
+    command: "pnpm start --port 3100",
     url: "http://localhost:3100/",
     reuseExistingServer: !process.env.CI,
     timeout: 60_000,

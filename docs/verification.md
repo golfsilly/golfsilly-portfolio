@@ -37,8 +37,8 @@ Build with your actual deployment origin or the local audit origin, then start t
 
 ```powershell
 $env:NEXT_PUBLIC_SITE_URL = 'http://localhost:3100'
-npm.cmd run build
-npm.cmd run start -- --port 3100
+pnpm.cmd build
+pnpm.cmd start --port 3100
 ```
 
 In a second PowerShell terminal, after installing the Playwright browser as described in README:
